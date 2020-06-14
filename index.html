@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/284a559166.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Clock</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="linkbox">
+        <a href="https://www.youtube.com/" target="blank"
+          ><img
+            class="youtube"
+            src="https://lh3.googleusercontent.com/vA4tG0v4aasE7oIvRIvTkOYTwom07DfqHdUPr6k7jmrDwy_qA_SonqZkw6KX0OXKAdk"
+        /></a>
+      </div>
+    </nav>
+    <div class="body__container">
+      <div class="jsClock clock">
+        <h1>00:00</h1>
+      </div>
+      <form class="js-form form">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      <span class="js-weather weather"></span>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <div class="board">
+        <div class="cateogry__container">
+          <span class="js-previous__category">←</span>
+          <div class="js-category category">
+            <ul>
+              <li>
+                <span class="js-ctMenu1">javascript</span>
+              </li>
+              <li>
+                <span class="js-ctMenu2">django</span>
+              </li>
+              <li>
+                <span class="js-ctMenu3">backend</span>
+              </li>
+              <li>
+                <span class="js-ctMenu4">react</span>
+              </li>
+              <li>
+                <span class="js-ctMenu5">Note</span>
+              </li>
+            </ul>
+          </div>
+          <span class="js-next__category">→</span>
+        </div>
+        <div><ul class="js-toDoList todolist" id="js-toDoList"></ul></div>
+      </div>
+    </div>
+    <script src="category.js"></script>
+    <script src="categorystyle.js"></script>
+    <script src="clock.js"></script>
+    <script src="gretting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="slide.js"></script>
+  </body>
+</html>
